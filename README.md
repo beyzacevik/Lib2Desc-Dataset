@@ -16,8 +16,13 @@ The datasets proposed in ***Lib2Desc: Automatic generation of security-centric A
         It includes rhe name and textual feature vector extracted from the general textual description of TPLs. 
    - TPL_API_features.csv
    
-        It includes the name and API feature vector obtained from static analysis of TPLs.
+        It includes the name and API feature vector obtained from static analysis of TPLs.  
         
+   - TPL_name_url.csv
+   
+        It includes the name and the website resource of the description.
+        
+                 
 **AAPI Dataset**:
     
    This dataset consists of two parts codes of Android API calls and Javadoc comment of the APIs extracted from original Android API documentation. The dataset is split in train, validation, and test sets. 
@@ -47,6 +52,7 @@ The repository hierarchy:
 └── TPL-Dataset
     ├── TPL_API_features.csv
     ├── TPL_category_textual-description.csv
+    ├── TPL_name_url.csv
     └── TPL_textual_features.csv
 ```
 ---
